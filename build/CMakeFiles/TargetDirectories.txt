@@ -1,0 +1,4 @@
+/home/hankangkai/MyMuduo/build/CMakeFiles/mymuduo.dir
+/home/hankangkai/MyMuduo/build/CMakeFiles/test.dir
+/home/hankangkai/MyMuduo/build/CMakeFiles/edit_cache.dir
+/home/hankangkai/MyMuduo/build/CMakeFiles/rebuild_cache.dir

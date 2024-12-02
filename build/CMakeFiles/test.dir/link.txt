@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -std=c++11 -fPIC -rdynamic CMakeFiles/test.dir/Channel.cc.o CMakeFiles/test.dir/EventLoop.cc.o CMakeFiles/test.dir/InetAddress.cc.o CMakeFiles/test.dir/Logger.cc.o CMakeFiles/test.dir/Timestamp.cc.o CMakeFiles/test.dir/test.cc.o -o ../bin/test 
