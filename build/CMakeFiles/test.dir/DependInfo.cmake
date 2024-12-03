@@ -9,9 +9,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/hankangkai/MyMuduo/Channel.cc" "CMakeFiles/test.dir/Channel.cc.o" "gcc" "CMakeFiles/test.dir/Channel.cc.o.d"
+  "/home/hankangkai/MyMuduo/DefaultPoller.cc" "CMakeFiles/test.dir/DefaultPoller.cc.o" "gcc" "CMakeFiles/test.dir/DefaultPoller.cc.o.d"
   "/home/hankangkai/MyMuduo/EventLoop.cc" "CMakeFiles/test.dir/EventLoop.cc.o" "gcc" "CMakeFiles/test.dir/EventLoop.cc.o.d"
   "/home/hankangkai/MyMuduo/InetAddress.cc" "CMakeFiles/test.dir/InetAddress.cc.o" "gcc" "CMakeFiles/test.dir/InetAddress.cc.o.d"
   "/home/hankangkai/MyMuduo/Logger.cc" "CMakeFiles/test.dir/Logger.cc.o" "gcc" "CMakeFiles/test.dir/Logger.cc.o.d"
+  "/home/hankangkai/MyMuduo/Poller.cc" "CMakeFiles/test.dir/Poller.cc.o" "gcc" "CMakeFiles/test.dir/Poller.cc.o.d"
   "/home/hankangkai/MyMuduo/Timestamp.cc" "CMakeFiles/test.dir/Timestamp.cc.o" "gcc" "CMakeFiles/test.dir/Timestamp.cc.o.d"
   "/home/hankangkai/MyMuduo/test.cc" "CMakeFiles/test.dir/test.cc.o" "gcc" "CMakeFiles/test.dir/test.cc.o.d"
   )

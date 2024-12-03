@@ -73,92 +73,122 @@ CMakeFiles/test.dir/Channel.cc.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Channel.cc.o: ../Channel.cc
 CMakeFiles/test.dir/Channel.cc.o: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hankangkai/MyMuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/Channel.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/Channel.cc.o -MF CMakeFiles/test.dir/Channel.cc.o.d -o CMakeFiles/test.dir/Channel.cc.o -c /home/hankangkai/MyMuduo/Channel.cc
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/Channel.cc.o -MF CMakeFiles/test.dir/Channel.cc.o.d -o CMakeFiles/test.dir/Channel.cc.o -c /home/hankangkai/MyMuduo/Channel.cc
 
 CMakeFiles/test.dir/Channel.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/Channel.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hankangkai/MyMuduo/Channel.cc > CMakeFiles/test.dir/Channel.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hankangkai/MyMuduo/Channel.cc > CMakeFiles/test.dir/Channel.cc.i
 
 CMakeFiles/test.dir/Channel.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/Channel.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hankangkai/MyMuduo/Channel.cc -o CMakeFiles/test.dir/Channel.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hankangkai/MyMuduo/Channel.cc -o CMakeFiles/test.dir/Channel.cc.s
+
+CMakeFiles/test.dir/DefaultPoller.cc.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/DefaultPoller.cc.o: ../DefaultPoller.cc
+CMakeFiles/test.dir/DefaultPoller.cc.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hankangkai/MyMuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test.dir/DefaultPoller.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/DefaultPoller.cc.o -MF CMakeFiles/test.dir/DefaultPoller.cc.o.d -o CMakeFiles/test.dir/DefaultPoller.cc.o -c /home/hankangkai/MyMuduo/DefaultPoller.cc
+
+CMakeFiles/test.dir/DefaultPoller.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/DefaultPoller.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hankangkai/MyMuduo/DefaultPoller.cc > CMakeFiles/test.dir/DefaultPoller.cc.i
+
+CMakeFiles/test.dir/DefaultPoller.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/DefaultPoller.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hankangkai/MyMuduo/DefaultPoller.cc -o CMakeFiles/test.dir/DefaultPoller.cc.s
 
 CMakeFiles/test.dir/EventLoop.cc.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/EventLoop.cc.o: ../EventLoop.cc
 CMakeFiles/test.dir/EventLoop.cc.o: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hankangkai/MyMuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test.dir/EventLoop.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/EventLoop.cc.o -MF CMakeFiles/test.dir/EventLoop.cc.o.d -o CMakeFiles/test.dir/EventLoop.cc.o -c /home/hankangkai/MyMuduo/EventLoop.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hankangkai/MyMuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test.dir/EventLoop.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/EventLoop.cc.o -MF CMakeFiles/test.dir/EventLoop.cc.o.d -o CMakeFiles/test.dir/EventLoop.cc.o -c /home/hankangkai/MyMuduo/EventLoop.cc
 
 CMakeFiles/test.dir/EventLoop.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/EventLoop.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hankangkai/MyMuduo/EventLoop.cc > CMakeFiles/test.dir/EventLoop.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hankangkai/MyMuduo/EventLoop.cc > CMakeFiles/test.dir/EventLoop.cc.i
 
 CMakeFiles/test.dir/EventLoop.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/EventLoop.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hankangkai/MyMuduo/EventLoop.cc -o CMakeFiles/test.dir/EventLoop.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hankangkai/MyMuduo/EventLoop.cc -o CMakeFiles/test.dir/EventLoop.cc.s
 
 CMakeFiles/test.dir/InetAddress.cc.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/InetAddress.cc.o: ../InetAddress.cc
 CMakeFiles/test.dir/InetAddress.cc.o: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hankangkai/MyMuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test.dir/InetAddress.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/InetAddress.cc.o -MF CMakeFiles/test.dir/InetAddress.cc.o.d -o CMakeFiles/test.dir/InetAddress.cc.o -c /home/hankangkai/MyMuduo/InetAddress.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hankangkai/MyMuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/test.dir/InetAddress.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/InetAddress.cc.o -MF CMakeFiles/test.dir/InetAddress.cc.o.d -o CMakeFiles/test.dir/InetAddress.cc.o -c /home/hankangkai/MyMuduo/InetAddress.cc
 
 CMakeFiles/test.dir/InetAddress.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/InetAddress.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hankangkai/MyMuduo/InetAddress.cc > CMakeFiles/test.dir/InetAddress.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hankangkai/MyMuduo/InetAddress.cc > CMakeFiles/test.dir/InetAddress.cc.i
 
 CMakeFiles/test.dir/InetAddress.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/InetAddress.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hankangkai/MyMuduo/InetAddress.cc -o CMakeFiles/test.dir/InetAddress.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hankangkai/MyMuduo/InetAddress.cc -o CMakeFiles/test.dir/InetAddress.cc.s
 
 CMakeFiles/test.dir/Logger.cc.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Logger.cc.o: ../Logger.cc
 CMakeFiles/test.dir/Logger.cc.o: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hankangkai/MyMuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/test.dir/Logger.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/Logger.cc.o -MF CMakeFiles/test.dir/Logger.cc.o.d -o CMakeFiles/test.dir/Logger.cc.o -c /home/hankangkai/MyMuduo/Logger.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hankangkai/MyMuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/test.dir/Logger.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/Logger.cc.o -MF CMakeFiles/test.dir/Logger.cc.o.d -o CMakeFiles/test.dir/Logger.cc.o -c /home/hankangkai/MyMuduo/Logger.cc
 
 CMakeFiles/test.dir/Logger.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/Logger.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hankangkai/MyMuduo/Logger.cc > CMakeFiles/test.dir/Logger.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hankangkai/MyMuduo/Logger.cc > CMakeFiles/test.dir/Logger.cc.i
 
 CMakeFiles/test.dir/Logger.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/Logger.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hankangkai/MyMuduo/Logger.cc -o CMakeFiles/test.dir/Logger.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hankangkai/MyMuduo/Logger.cc -o CMakeFiles/test.dir/Logger.cc.s
+
+CMakeFiles/test.dir/Poller.cc.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/Poller.cc.o: ../Poller.cc
+CMakeFiles/test.dir/Poller.cc.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hankangkai/MyMuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/test.dir/Poller.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/Poller.cc.o -MF CMakeFiles/test.dir/Poller.cc.o.d -o CMakeFiles/test.dir/Poller.cc.o -c /home/hankangkai/MyMuduo/Poller.cc
+
+CMakeFiles/test.dir/Poller.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/Poller.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hankangkai/MyMuduo/Poller.cc > CMakeFiles/test.dir/Poller.cc.i
+
+CMakeFiles/test.dir/Poller.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/Poller.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hankangkai/MyMuduo/Poller.cc -o CMakeFiles/test.dir/Poller.cc.s
 
 CMakeFiles/test.dir/Timestamp.cc.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Timestamp.cc.o: ../Timestamp.cc
 CMakeFiles/test.dir/Timestamp.cc.o: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hankangkai/MyMuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/test.dir/Timestamp.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/Timestamp.cc.o -MF CMakeFiles/test.dir/Timestamp.cc.o.d -o CMakeFiles/test.dir/Timestamp.cc.o -c /home/hankangkai/MyMuduo/Timestamp.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hankangkai/MyMuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/test.dir/Timestamp.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/Timestamp.cc.o -MF CMakeFiles/test.dir/Timestamp.cc.o.d -o CMakeFiles/test.dir/Timestamp.cc.o -c /home/hankangkai/MyMuduo/Timestamp.cc
 
 CMakeFiles/test.dir/Timestamp.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/Timestamp.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hankangkai/MyMuduo/Timestamp.cc > CMakeFiles/test.dir/Timestamp.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hankangkai/MyMuduo/Timestamp.cc > CMakeFiles/test.dir/Timestamp.cc.i
 
 CMakeFiles/test.dir/Timestamp.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/Timestamp.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hankangkai/MyMuduo/Timestamp.cc -o CMakeFiles/test.dir/Timestamp.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hankangkai/MyMuduo/Timestamp.cc -o CMakeFiles/test.dir/Timestamp.cc.s
 
 CMakeFiles/test.dir/test.cc.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/test.cc.o: ../test.cc
 CMakeFiles/test.dir/test.cc.o: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hankangkai/MyMuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/test.dir/test.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/test.cc.o -MF CMakeFiles/test.dir/test.cc.o.d -o CMakeFiles/test.dir/test.cc.o -c /home/hankangkai/MyMuduo/test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hankangkai/MyMuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/test.dir/test.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/test.cc.o -MF CMakeFiles/test.dir/test.cc.o.d -o CMakeFiles/test.dir/test.cc.o -c /home/hankangkai/MyMuduo/test.cc
 
 CMakeFiles/test.dir/test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hankangkai/MyMuduo/test.cc > CMakeFiles/test.dir/test.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hankangkai/MyMuduo/test.cc > CMakeFiles/test.dir/test.cc.i
 
 CMakeFiles/test.dir/test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hankangkai/MyMuduo/test.cc -o CMakeFiles/test.dir/test.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hankangkai/MyMuduo/test.cc -o CMakeFiles/test.dir/test.cc.s
 
 # Object files for target test
 test_OBJECTS = \
 "CMakeFiles/test.dir/Channel.cc.o" \
+"CMakeFiles/test.dir/DefaultPoller.cc.o" \
 "CMakeFiles/test.dir/EventLoop.cc.o" \
 "CMakeFiles/test.dir/InetAddress.cc.o" \
 "CMakeFiles/test.dir/Logger.cc.o" \
+"CMakeFiles/test.dir/Poller.cc.o" \
 "CMakeFiles/test.dir/Timestamp.cc.o" \
 "CMakeFiles/test.dir/test.cc.o"
 
@@ -166,14 +196,16 @@ test_OBJECTS = \
 test_EXTERNAL_OBJECTS =
 
 ../bin/test: CMakeFiles/test.dir/Channel.cc.o
+../bin/test: CMakeFiles/test.dir/DefaultPoller.cc.o
 ../bin/test: CMakeFiles/test.dir/EventLoop.cc.o
 ../bin/test: CMakeFiles/test.dir/InetAddress.cc.o
 ../bin/test: CMakeFiles/test.dir/Logger.cc.o
+../bin/test: CMakeFiles/test.dir/Poller.cc.o
 ../bin/test: CMakeFiles/test.dir/Timestamp.cc.o
 ../bin/test: CMakeFiles/test.dir/test.cc.o
 ../bin/test: CMakeFiles/test.dir/build.make
 ../bin/test: CMakeFiles/test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hankangkai/MyMuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../bin/test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hankangkai/MyMuduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ../bin/test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
