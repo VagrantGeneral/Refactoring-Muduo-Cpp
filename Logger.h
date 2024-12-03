@@ -61,6 +61,7 @@ private:
         char buff[1024] = {0};\
         snprintf(buff, 1024, logmsgFormat, ##__VA_ARGS__);\
         logger.log(buff);\
+        exit(-1);\
     }\
     while (0);
 
